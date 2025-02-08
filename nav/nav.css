@@ -1,0 +1,43 @@
+/* This file contains the CSS for the navigation bar */
+
+nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+    border-radius: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+    border-radius: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li {
+    display: inline;
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: white;
+    color: palevioletred;
+}
+.active {
+    background-color: white;
+    color: palevioletred;
+}
