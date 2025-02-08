@@ -12,10 +12,19 @@ body {
 
 img {
   border-radius: 25px;
+
 }
 
 h1 {
   text-align: center;
   font-weight: extra-bold;
   font-size: extra-large;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
