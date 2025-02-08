@@ -53,17 +53,25 @@ body {
 div {
   margin: 30px;
   padding: 30px;
-  background-color: white;
   border-radius: 25px;
+  background-color: white;
 }
 
 img {
   border-radius: 25px;
-
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 h1 {
   text-align: center;
   font-weight: extra-bold;
   font-size: extra-large;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
