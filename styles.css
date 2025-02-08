@@ -1,11 +1,21 @@
 /* styles.css */
 
-div {
-    color: white;
-    background-color: black;
-  }
-  
-  p {
-    color: red;
-  }
-  
+body {
+  font-family: sans-serif;
+  color: black;
+  background-color: #f4f4f4;
+  margin: auto;
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+img {
+  border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: extra-bold;
+  font-size: extra-large;
+}
