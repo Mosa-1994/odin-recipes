@@ -1,4 +1,46 @@
-/* styles.css */
+/* Beneath the CSS for the navigation bar */
+
+nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: palevioletred;
+  border-radius: 25px;
+  position: static;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: palevioletred;
+  border-radius: 25px;
+  position: static;
+  top: 0;
+  width: 100%;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: palevioletred;
+}
+.active {
+  background-color: rgb(226, 168, 187);
+  color: palevioletred;
+}
+
+/* Body of the page */
 
 body {
   font-family: sans-serif;
@@ -6,8 +48,13 @@ body {
   background-color: #f4f4f4;
   margin: auto;
   width: 50%;
-  padding-left: 30px;
-  padding-right: 30px;
+}
+
+div {
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 25px;
 }
 
 img {
@@ -19,8 +66,4 @@ h1 {
   text-align: center;
   font-weight: extra-bold;
   font-size: extra-large;
-}
-
-.active {
-  background-color: white;
 }
